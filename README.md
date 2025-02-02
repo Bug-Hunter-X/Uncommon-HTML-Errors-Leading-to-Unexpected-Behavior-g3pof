@@ -1,0 +1,1 @@
+This repository demonstrates two uncommon scenarios in HTML that can cause unexpected behavior without throwing explicit JavaScript errors.  The first example shows attempting to access a non-existent property of an element. The second example shows using a tag like <script> outside of its normal context in the <head> or <body>.  The solution file provides corrected versions.
