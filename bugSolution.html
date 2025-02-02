@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Accessing existing properties of an element, or using default values
+    let element = document.getElementById("myDiv");
+    let elementProperty = element.id || "Default ID"; //Use default if property doesn't exist
+    console.log(elementProperty); // outputs "myDiv"
+
+    //Proper placement of a <script> tag
+    //Always place <script> tags either in the <head> or at the end of the <body>
+  </script>
+</body>
+</html>
